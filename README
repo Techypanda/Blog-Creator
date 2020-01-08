@@ -1,0 +1,20 @@
+Hi, This PHP Class will create Blogs for you.
+It is currently capable of these themes:
+    - Default: (Copies my friend Generak's Blog layout, looks much worse
+                and this is intentional as I dont want you to just steal
+                his blog.)
+    ... (EXPAND)
+
+Usage:
+    Require it : require('./objects/Blog.php');
+    Construct A Object : $test = new Blog('d','Jonathan\'s Blog', 'Really Cool Stuff On This Blog.');
+    The Parameters to the constructor are
+        - "Theme: Referenced via full name or first letter. e.g. D or Default"
+        - "Blog Title: What you wish to name the blog."
+        - "Blog Description: What you wish the blog description to be."
+
+
+CURRENT ISSUES:
+    For each layout you will have to copy a .css file for the relevant theme to
+    the same location for the .php file, I haven't really got any idea how to
+    fix this yet and would love suggestions.
